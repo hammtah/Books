@@ -18,9 +18,13 @@ body{
     gap:8px;
     color:rgb(33, 33, 33);
     text-decoration: none;
+    transition: all ease 300ms;
+
 }
 .book-div:hover{
     background-color: #dcdbdb;
+    scale: 1.03;
+
 }
 .category{
     font-size: 11px;

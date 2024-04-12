@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles/home-style.css">
+<link rel="stylesheet" href="styles/details-style.css">
 <script src="script.js" defer></script>
 </head>
 <body>
@@ -18,7 +19,7 @@
         </section>
     </div>
     <!-- templates -->
-    <template id="book">
+    <template id="book-template">
         <a class="book-div" href="">
             <span class="category" >Random</span>
             <img src="https://www.noor-book.com/publice/covers_cache_webp/2/4/0/d/293b5b180d40d8f9f947a2dfccb61b46.png.webp" alt="" class="book-img">
@@ -28,6 +29,34 @@
             </div>
         </a>
     </template>
-    <template id="details"></template>
+    <template id="details-template">
+        <section class="details-container">
+            <section class="details-side">
+                <div class="details-side-img">
+                    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1687106115i/176443397.jpg" alt="cover">
+                </div>
+                <div class="details-side-actions-div">
+                    <button class="details-side-action-btn">Want to read</button>
+                </div>
+            </section>
+            <section class="details-main">
+                <h1 class="details-title">Vulture Capitalism: Corporate Crimes, Backdoor Bailouts, and the Death of Freedom</h1>
+                <h2 class="details-author">Grace Blakeley</h2>
+                <div class="details-rating-div"></div>
+                <div class="details-description-div">
+                    <p class="details-description-p">In the vein of The Shock Doctrine and Evil Geniuses, this timely manifesto from an acclaimed journalist illustrates how corporate and political elites have used planned capitalism to advance their own interests at the expense of the rest of us—and how we can take back our economy for all.</p>
+                </div>
+                <div class="details-genre-div">
+                    <a href="" class="details-genre-a">Politics</a>
+                    <a href="" class="details-genre-a">Science fiction</a>
+                    <a href="" class="details-genre-a">Crime</a>
+                </div>
+                <div class="details-meta-div">
+                    <span class="details-meta-pages">384 page</span>
+                    <span class="details-meta-publish">First published March 12, 2024</span>
+                </div>
+            </section>
+        </section>
+    </template>
 </body>
 </html>

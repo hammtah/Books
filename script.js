@@ -34,7 +34,7 @@ function renderBook(bookData){
 }
 
 function createBook(){
-    const template = document.getElementById("book");
+    const template = document.getElementById("book-template");
     const book = template.content.cloneNode(true);
     return book;
 }
