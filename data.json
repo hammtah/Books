@@ -1,0 +1,26 @@
+[
+    {
+        "categorie":"Islam",
+        "img":"https://www.noor-book.com/publice/covers_cache_webp/2/3/f/c/a19d2bf4f73fc8a837778760ca7db4f0.jpg.webp",
+        "title":"Messages From The Qur'an",
+        "author":"Adham Sharqawi"
+    },
+    {
+        "categorie":"Hadith",
+        "img":"https://www.noor-book.com/publice/covers_cache_webp/3/7/7/8/59ed8a2d987780b86dd1b99294ec3e41.png.webp",
+        "title":"Sahih Bukhari",
+        "author":"Muhammad Bin Ismail AlBukhari"
+    },
+    {
+        "categorie":"Random",
+        "img":"https://www.noor-book.com/publice/covers_cache_webp/1/f/b/a/c1d0a46d1cfba46829629fc5f7c75490.jpg.webp",
+        "title":"Crowd Psychology",
+        "author":"Gustaf Le Bon"
+    },
+    {
+        "categorie":"Random",
+        "img":"https://www.noor-book.com/publice/covers_cache_webp/8/5/5/7/03669fb700557d1d7fcda2434a7ffac8.png.webp",
+        "title":"Banality System",
+        "author":"Alain Deneault"
+    }
+]
