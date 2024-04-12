@@ -2,13 +2,14 @@ let data=[];
 const booksUrl = "./data.json";
 
 getBooks(booksUrl)
-.then(()=>{
+.then((data)=>{
+    data=[...data,...data,...data]
     renderBooks(data)
 });
 
 async function getBooks(url){
     const res = await fetch(url).then(res=> res.json());
-    data = res;
+    return res;
 }
 
 function renderBooks(data){
@@ -24,13 +25,11 @@ function renderBook(bookData){
     const imgDom = book.querySelector(".book-img");
     const titleDom = book.querySelector(".book-title");
     const authorDom = book.querySelector(".author");
-
     updateElement(categoryDom, category);
     updateElement(imgDom, img);
     updateElement(titleDom, title);
     updateElement(authorDom, author);
-    const app=document.getElementById("app");
-    app.appendChild(book)
+    document.getElementById("books-section").appendChild(book);
 
 }
 

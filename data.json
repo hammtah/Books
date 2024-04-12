@@ -1,10 +1,14 @@
 [
     {
         "id":1,
-        "category":"Islam",
+        "category":"Quran",
         "img":"https://www.noor-book.com/publice/covers_cache_webp/2/3/f/c/a19d2bf4f73fc8a837778760ca7db4f0.jpg.webp",
         "title":"Messages From The Qur'an",
-        "author":"Adham Sharqawi"
+        "author":"Adham Sharqawi",
+        "release":"01 Jan 2015",
+        "pages":271,
+        "description":"يا الله : إنكَ عندما قلتَ لإبراهيم عليه السلام “وَأَذِّنْ فِي الناس بالحج” قال لكَ: ربِّ كيف أُبلّغُ الناس وصوتي لا يصلهم فقلتَ له: عليكَ النِّداء وعلينا البلاغ! فبلغ صوته أرجاء الأرض"
+
     },
     {
         "id":2,
@@ -15,16 +19,29 @@
     },
     {
         "id":3,
-        "category":"Random",
+        "category":"Psychology",
         "img":"https://www.noor-book.com/publice/covers_cache_webp/1/f/b/a/c1d0a46d1cfba46829629fc5f7c75490.jpg.webp",
         "title":"Crowd Psychology",
         "author":"Gustaf Le Bon"
     },
     {
         "id":4,
-        "category":"Random",
+        "category":"Politics",
         "img":"https://www.noor-book.com/publice/covers_cache_webp/8/5/5/7/03669fb700557d1d7fcda2434a7ffac8.png.webp",
         "title":"Banality System",
-        "author":"Alain Deneault"
+        "author":"Alain Deneault",
+        "release":"01 Jan 2015",
+        "pages":366,
+        "description":"نعيش فترة مختلفة عن فترات التاريخ البشري، حيث السلطة بعيدة عن يد من يستطيع التميز في القيادة، ومبسوطة في يد التافهين باختلاف درجاتهم ومستوياتهم. لقد تطور الأمر حتى صار يكتسح جميع المجالات، وصارت التفاهة نظاما يحتفى به، واستطاعة التافهون أن يبنوا عالما جديدا يقتل الإبداع والتميز، ويشرع التفاهة والتخلف، ويجعل الخروج عن النظام التقليدية خطأ غير مقبول، مهما كانت الدوافع، وحتى لو كانت نتيجة التجديد حسنة وجيدة."
+    },
+    {
+        "id":5,
+        "category":"Literary Stories",
+        "img":"https://www.noor-book.com/publice/covers_cache_webp/2/a/5/c/985baf07a3a5c46d7223823a06a4cb40.jpeg.webp",
+        "title":"Animal Farm Novel ",
+        "author":"George Orwell",
+        "release":"31 May 2010",
+        "pages":122,
+        "description":" الرواية مثالا من الأدب التحذيري على الحركات السياسية و الاجتماعية التي تطيح بالحكومات و المؤسسات الفاسدة و غير الديمقراطية إلا أنها تؤول إلى الفساد و القهر هي ذاتها بسقوطها في كبوات السلطة فتستخدم أساليب عنيفة و دكتاتورية للاحتفاظ بها، و قد ضربت أمثلة واقعية من المستعمرات الأفريقية السابقة مثل زمباوي و جمهورية الكونغو الديموقراطية التي تولى عليها رؤساء محليون كانوا أكثر فسادا و طغيانا من المستعمرين الأوربيين الذين كانوا قد طردوهم."
     }
 ]
