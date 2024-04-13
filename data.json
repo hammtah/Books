@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "category":"Quran",
+        "category":["Quran"],
         "img":"https://www.noor-book.com/publice/covers_cache_webp/2/3/f/c/a19d2bf4f73fc8a837778760ca7db4f0.jpg.webp",
         "title":"Messages From The Qur'an",
         "author":"Adham Sharqawi",
@@ -12,36 +12,58 @@
     },
     {
         "id":2,
-        "category":"Hadith",
+        "category":["Hadith ","Fiqh","Sunnah"],
         "img":"https://www.noor-book.com/publice/covers_cache_webp/3/7/7/8/59ed8a2d987780b86dd1b99294ec3e41.png.webp",
         "title":"Sahih Bukhari",
-        "author":"Muhammad Bin Ismail AlBukhari"
+        "author":"Muhammad Bin Ismail AlBukhari",
+        "description":""
     },
     {
         "id":3,
-        "category":"Psychology",
+        "category":["Psychologie ","Sociologie"],
         "img":"https://www.noor-book.com/publice/covers_cache_webp/1/f/b/a/c1d0a46d1cfba46829629fc5f7c75490.jpg.webp",
         "title":"Crowd Psychology",
-        "author":"Gustaf Le Bon"
+        "author":"Gustaf Le Bon",
+        "description":""
     },
     {
         "id":4,
-        "category":"Politics",
-        "img":"https://www.noor-book.com/publice/covers_cache_webp/8/5/5/7/03669fb700557d1d7fcda2434a7ffac8.png.webp",
+        "category":["Politics", "Philosophy", "Nonfiction", "Sociology", "Psychology", "Essays", "History"],
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1521146986i/39291587.jpg",
         "title":"Banality System",
         "author":"Alain Deneault",
-        "release":"01 Jan 2015",
-        "pages":366,
-        "description":"نعيش فترة مختلفة عن فترات التاريخ البشري، حيث السلطة بعيدة عن يد من يستطيع التميز في القيادة، ومبسوطة في يد التافهين باختلاف درجاتهم ومستوياتهم. لقد تطور الأمر حتى صار يكتسح جميع المجالات، وصارت التفاهة نظاما يحتفى به، واستطاعة التافهون أن يبنوا عالما جديدا يقتل الإبداع والتميز، ويشرع التفاهة والتخلف، ويجعل الخروج عن النظام التقليدية خطأ غير مقبول، مهما كانت الدوافع، وحتى لو كانت نتيجة التجديد حسنة وجيدة."
+        "release":"October 8, 2015",
+        "pages":200 ,
+        "description":"Medi·oc·racy: noun the state of domination created by a ruling class composed entirely of mediocre people, for instance, Justin Trudeau, Emmanuel Macron, etc.There was no Reichstag fire. No storming of the Bastille. No mutiny on the Aurora. Instead, the mediocre have seized power without firing a single shot. They rose to power on the tide of an economy where workers produce assembly-line meals without knowing how to cook at home, give customers instructions over the phone that they themselves don’t understand, or sell books and newspapers that they never read."
     },
     {
         "id":5,
-        "category":"Literary Stories",
+        "category":["Historical ","Fiction","Fantasy"],
         "img":"https://www.noor-book.com/publice/covers_cache_webp/2/a/5/c/985baf07a3a5c46d7223823a06a4cb40.jpeg.webp",
         "title":"Animal Farm Novel ",
         "author":"George Orwell",
         "release":"31 May 2010",
         "pages":122,
         "description":" الرواية مثالا من الأدب التحذيري على الحركات السياسية و الاجتماعية التي تطيح بالحكومات و المؤسسات الفاسدة و غير الديمقراطية إلا أنها تؤول إلى الفساد و القهر هي ذاتها بسقوطها في كبوات السلطة فتستخدم أساليب عنيفة و دكتاتورية للاحتفاظ بها، و قد ضربت أمثلة واقعية من المستعمرات الأفريقية السابقة مثل زمباوي و جمهورية الكونغو الديموقراطية التي تولى عليها رؤساء محليون كانوا أكثر فسادا و طغيانا من المستعمرين الأوربيين الذين كانوا قد طردوهم."
+    },
+    {
+        "id":6,
+        "category":["Politics","Science fiction", "Crime"],
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1687106115i/176443397.jpg",
+        "title":"Vulture Capitalism: Corporate Crimes, Backdoor Bailouts, and the Death of Freedom ",
+        "author":"Grace Blakeley",
+        "release":"March 12, 2024",
+        "pages":384,
+        "description":"In the vein of The Shock Doctrine and Evil Geniuses, this timely manifesto from an acclaimed journalist illustrates how corporate and political elites have used planned capitalism to advance their own interests at the expense of the rest of us—and how we can take back our economy for all."
+    },
+    {
+        "id":7,
+        "category":["Historical ","Fiction","Fantasy"],
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677756582i/60654349.jpg",
+        "title":"Weyward ",
+        "author":"Emilia Hart",
+        "release":" February 2, 2023",
+        "pages":329 ,
+        "description":"2019: Under cover of darkness, Kate flees London for ramshackle Weyward Cottage, inherited from a great aunt she barely remembers. With its tumbling ivy and overgrown garden, the cottage is worlds away from the abusive partner who tormented Kate. But she begins to suspect that her great aunt had a secret. One that lurks in the bones of the cottage, hidden ever since the witch-hunts of the 17th century.1619: Altha is awaiting trial for the murder of a local farmer who was stampeded to death by his herd. As a girl, Altha’s mother taught her their magic, a kind not rooted in spell casting but in a deep knowledge of the natural world. But unusual women have always been deemed dangerous, and as the evidence for witchcraft is set out against Altha, she knows it will take all of her powers to maintain her freedom.1942: As World War II rages, Violet is trapped in her family's grand, crumbling estate. Straitjacketed by societal convention, she longs for the robust education her brother receives––and for her mother, long deceased, who was rumored to have gone mad before her death. The only traces Violet has of her are a locket bearing the initial W and the word weyward scratched into the baseboard of her bedroom.Weaving together the stories of three extraordinary women across five centuries, Emilia Hart's Weyward is an enthralling novel of female resilience and the transformative power of the natural world."
     }
 ]

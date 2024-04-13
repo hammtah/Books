@@ -18,6 +18,8 @@ async function getBooks(url){
 }
 
 function renderBooks(data){
+    document.getElementById("app").textContent='';
+    document.getElementById("books-section").textContent='';
     data.forEach( book=> renderBook(book) );
 }
 
@@ -26,7 +28,8 @@ function renderBook(bookData){
     const {id,category, img, title, author}=bookData;
 
     book.querySelector(".book-div").id=`book-${id}`;
-    book.querySelector(".book-div").dataset.id=`/books?id=${id}`;
+    // book.querySelector(".book-div").dataset.id=`/books?id=${id}`;
+    book.querySelectorAll(".clk").forEach((elm)=>elm.dataset.id=`/books?id=${id}`);
     const categoryDom = book.querySelector(".category");
     const imgDom = book.querySelector(".book-img");
     const titleDom = book.querySelector(".book-title");
@@ -54,21 +57,25 @@ function updateElement(node,content){
 async function renderDetails(id){
     const details=createTmpltCopy("details-template");
     data = await getBooks(booksUrl);
-    let {img, title, author, release, pages, description}=data.find((book)=>{
+    let {img, title, author, release, pages, description,category}=data.find((book)=>{
         return book.id==id;
     });
     const imgDom = details.querySelector(".details-cover");
     const titleDom = details.querySelector(".details-title");
     const authorDom = details.querySelector(".details-author");
-    const descriptionDom = details.querySelector(".details-description-p");
+    const descriptionDom = details.querySelector(".details-description-div");
     const pagesDom = details.querySelector(".details-meta-pages");
     const releaseDom = details.querySelector(".details-meta-publish");
     updateElement(imgDom, img);
     updateElement(titleDom, title);
     updateElement(authorDom, author);
-    updateElement(descriptionDom, description);
+    const descriptionArr=description.split('.');
+    descriptionDom.innerHTML=descriptionArr.map((par)=>`<p class="details-description-p">${par}</p>`).join('');
+    // updateElement(descriptionDom, description);
     updateElement(pagesDom, pages);
     updateElement(releaseDom, release);
+    // <a href="" class="details-genre-a"></a>
+    details.querySelector(".genres-as").innerHTML=category.map((category)=>`<a href="" class="details-genre-a">${category}</a>`).join('');
     document.getElementById("app").textContent='';
     document.getElementById("books-section").textContent='';
     document.getElementById("app").appendChild(details);

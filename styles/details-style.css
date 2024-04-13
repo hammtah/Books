@@ -88,8 +88,12 @@ body{
     gap: 8px;
     align-items: baseline;
 }
+.genres-as{
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
 .genre-span{
-    margin-right: 8px;
     /* font-size: .85rem; */
     font-weight: 400;
     color: rgb(69, 69, 69);
@@ -100,6 +104,11 @@ body{
     font-weight: 600;
     text-decoration: none;
     color: rgb(31, 31, 31);
+}
+.details-genre-a:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    /* border-bottom: 2px solid rgb(31, 31, 31); */
 }
 @media only screen and (max-width: 700px) {
     .details-title {
